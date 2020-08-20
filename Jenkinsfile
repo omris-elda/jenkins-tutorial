@@ -4,7 +4,6 @@ pipeline {
     stages {
         stage("Make Directory") {
             steps{
-                sh "rm -r ~/jenkins-tutorial-test"
                 sh "mkdir ~/jenkins-tutorial-test"
             }
         }
